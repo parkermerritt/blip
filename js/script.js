@@ -1,4 +1,4 @@
-<script>
+
 var video_out = document.getElementById("vid-box");
 
 function login(form) {
@@ -21,4 +21,3 @@ function makeCall(form){
 	else phone.dial(form.number.value);
 	return false;
 }
-</script>
