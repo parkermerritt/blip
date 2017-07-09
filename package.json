@@ -1,0 +1,26 @@
+{
+  "name": "blip-tutor-chat",
+  "version": "1.0.0",
+  "description": "peer-to-peer tutoring",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkermerritt/blip.git"
+  },
+  "keywords": [
+    "tutoring"
+  ],
+  "author": "notaplug",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parkermerritt/blip/issues"
+  },
+  "homepage": "https://github.com/parkermerritt/blip#readme",
+  "dependencies": {
+    "budo": "^10.0.3",
+    "simple-peer": "^8.1.1"
+  }
+}
